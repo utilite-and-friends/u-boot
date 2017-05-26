@@ -67,7 +67,8 @@
 				"-(reserved)"
 
 /* Environment */
-#define CONFIG_ENV_IS_IN_SPI_FLASH
+/* for mmc boot we use the default environment */
+#define CONFIG_ENV_IS_NOWHERE
 #define CONFIG_ENV_SPI_MAX_HZ		CONFIG_SF_DEFAULT_SPEED
 #define CONFIG_ENV_SPI_MODE		CONFIG_SF_DEFAULT_MODE
 #define CONFIG_ENV_SPI_BUS		CONFIG_SF_DEFAULT_BUS
